@@ -1,0 +1,49 @@
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+  rel="stylesheet"
+/>
+<div class="container">
+<div class="numberQuestion">
+  <button mat-button class="sideMenuIcon" (click)="this.detectorsService.nextQuestion()">
+    <mat-icon style="font-size: 35px">arrow_forward</mat-icon>
+    <!--<mat-icon style="font-size: 35px">menu</mat-icon>-->
+  </button>
+  <button mat-button class="arrowBackIcon" (click)="this.detectorsService.previousQuestion()">
+    <mat-icon style="font-size: 35px">arrow_back</mat-icon>
+  </button>
+  <span class="sectionName">Scan</span
+  ><span class="nextSection">Scan du modèle</span>
+  <div class="progressBar">
+    <div class="progressBarLine">
+      <mat-progress-bar
+        mode="determinate"
+        value="{{this.detectorsService.value}}"
+      ></mat-progress-bar>
+    </div>
+
+  </div>
+</div>
+<mat-tab-group class="header-less-tabs" mat-align-tabs="center" headerPosition="below" [selectedIndex]="this.detectorsService.selected">
+  <div *ngFor="let detector of detectorsService.detectors">
+    <mat-tab >
+
+        <app-single-scan></app-single-scan>
+
+    </mat-tab>
+  </div>
+</mat-tab-group>
+</div>
+
+

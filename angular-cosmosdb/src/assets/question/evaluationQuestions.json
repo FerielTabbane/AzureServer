@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "type": "input-question",
+      "question": "Année de contruction : ",
+      "detailsTab": "",
+      "extraDetails": "extraDetailsss",
+
+      "picture": "assets/images/aiguille.png"
+    },
+
+    {
+      "type": "input-question",
+      "question": "Avez-vous effectué des rénovations de plus de 40% de la valeur de votre résidence. Si oui, en quelle année?",
+      "detailsTab": "",
+      "extraDetails": "",
+      "picture": "assets/images/aiguille.png"
+    },
+
+    {
+      "type": "option-question",
+      "question": "Type de sous-sol  ?",
+      "detailsTab": "",
+      "extraDetails": "",
+      "picture": "assets/images/aiguille.png",
+
+      "options":[
+      {"option": "habitable"},
+      {"option":"vide sanitaire"},
+      {"option":"aucun"}
+
+      ]
+    },
+    {
+      "type": "number-question",
+      "question": "Combien d'étages avez-vous en incluant les mezzanines et demi-étages tout en excluant le sous-sol?",
+      "detailsTab": "",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous un garage intégré à la maison?",
+      "detailsTab": "",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous une source de flamme (poêle au gaz, foyer, chauffage mazout ou gaz)?",
+      "detailsTab": "",
+      "extraDetails": "",
+      "picture": ""
+    }
+
+  ]
+}

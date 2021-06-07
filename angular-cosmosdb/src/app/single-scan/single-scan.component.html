@@ -1,0 +1,27 @@
+
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+
+
+
+<div class="tab">
+
+  <br>
+  <span class="question">
+    {{ detector.id }}
+  </span>
+  <span class="detailsTab">
+    {{ detector.lieu }}
+  </span>
+  <div class="cam">
+    <div class="vid">
+      <video  #video> </video>
+    </div>
+    <div class="can" >
+      <canvas #canvas> </canvas>
+    </div>
+  </div>
+  <button class="screenshot" type="button" (click)="onScreenshot()">Prendre une photo</button>
+  <button class="screenshot" type="button" [disabled]="!new" (click)="onStart()">Prendre une autre photo</button>
+    <br>
+
+</div>

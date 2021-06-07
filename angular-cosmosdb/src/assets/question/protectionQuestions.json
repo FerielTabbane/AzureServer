@@ -1,0 +1,50 @@
+{
+  "questions": [
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous un détecteur de fumée raccordé à une centrale de télésurveillance ?",
+      "detailsTab": "Un seul détecteur de fumée télésurveillée peut devancer l'arrivée des pompiers suffisamment pour transformer une tragédie potentielle en incident déplaisant.",
+      "extraDetails": "extradetailssss",
+      "picture": "assets/images/alarm.png"
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous conservé une ligne de téléphone câblée à la maison?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous fait une exercice d'évacuation familiale avec sirène et sortie extérieure dans la dernière année?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Votre adresse civique est-elle illuminée toute la nuit et très clairement visible de la rue, hiver comme été?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Vos sorties de secours secondaires sont-elles bloquées, obstruées, difficiles à ouvrir ou enneigées en hiver?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous un extincteur de fumée près de chaque sortie?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    }
+
+
+
+
+  ]
+}

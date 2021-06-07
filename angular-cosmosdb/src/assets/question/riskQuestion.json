@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "type": "number-question",
+      "question": "Combien d'enfant de moins de 14 ans dorment à la maison?",
+      "detailsTab": "3 enfants sur 4 ne sont pas réveillés par la sirène standard des avertisseurs de fumées.",
+      "extraDetails": "",
+      "picture": "assets/images/childSleeping.png"
+    },
+    {
+      "type": "number-question",
+      "question": "Combien d'occupant s'endorment régulièrement sous l'effet de somniphère, d'alcool ou de cannabis?",
+      "detailsTab": "38% des adultes sous influence ne sont pas réveillé par la sirène 3100Hz.",
+      "extraDetails": "",
+      "picture": "assets/images/joint.jpg"
+    },
+    {
+      "type": "number-question",
+      "question": "Combien d'occupants fument la cigarette?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Selon vous, avez-vous beaucoup de matière synthétique (nylon, polyester et styromousse) pour vos matelas, literies, coussins et rideaux?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous un Bachelor dans l'enceinte de votre maison?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "yes-no-question",
+      "question": "Avez-vous déjà retiré ou désactivé votre avertisseur de fumée ou encore tardé à remplacer ses piles?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    },
+    {
+      "type": "options-question",
+      "question": "À quelle fréquence votre avertisseur sonne-t-il inutilement incluant pour vos toasts et la douche?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": "",
+      "options": [
+        { "option": "1-2/mois" },
+        { "option": "+2/mois" },
+        { "option": "Jamais" }
+      ]
+    },
+    {
+      "type": "number-question",
+      "question": "Combien d'occupants, souffrant d'une incapacité physique ou cognitive (pouvant être nuisible en cas d'incendie)?",
+      "detailsTab": "...",
+      "extraDetails": "",
+      "picture": ""
+    }
+  ]
+}

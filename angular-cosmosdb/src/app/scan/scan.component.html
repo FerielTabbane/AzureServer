@@ -1,0 +1,18 @@
+
+<!DOCTYPE html><html><head>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+  <link href="./scan.component.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+
+  <span class="SectionName">Scan Modèle</span>
+  <span class="Title">Prise de photo</span>
+  <span class="Description">Notre algorythme de reconnaissance pourrait l'identifier et répondre instantanément à dix questions pour vous. Il vous suffit de le(s) photographier. </span>
+    <button mat-flat-button class="yes" value="true" (click)="takePicture()">Oui, je le veux!</button>
+    <br>
+    <button  mat-flat-button class="no" value="false" (click)="manual()" routerLink="/manualCheck">Manuellement</button>
+</div>
+</body>
+  </html>

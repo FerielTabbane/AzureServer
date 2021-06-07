@@ -1,0 +1,19 @@
+{
+  "detecteurs": [
+    {
+      "lieu": "Corridor SS-1",
+      "picture": "Année de contruction : "
+
+    },
+
+    {
+      "lieu": "Room1 SS-1",
+      "picture": "Année de contruction : "
+    },
+
+    {
+      "lieu": "Room2 SS-1",
+      "picture": "Année de contruction : "
+    }
+  ]
+}
